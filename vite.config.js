@@ -1,7 +1,10 @@
+
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
-// https://vite.dev/config/
+// Configuration pour GitHub Pages
 export default defineConfig({
   plugins: [react()],
+  base: '/EasyHome/',
 })
+
